@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'mont serrat';
+}
+.btn:focus {
+    background-color: #d0eaff;
+    border-color: #007bff;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form {
+    width: 35%;
+    background-color: #5659d1 !important;
+}
+
+.titulo {
+    background-image: url('/assets/images/banner.png');
+    background-position: 40% ;
+    background-size: cover;
+    flex: 1;
+}
+
+.content {
+    padding: 50px 2%;
+}
+
+.content .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+}
+
+.content .logo h1 {
+    margin-left: -30px;
+}
+
+.content form {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content form .title-form {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.content form p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: white 1px solid;
+    padding: 10px 0;
+}
+input::placeholder{
+    color: white;
+}
