@@ -121,3 +121,150 @@ input:focus {
     background-color: #010938;
     border: 1px solid rgba(0, 0, 0, 0);
 }
+
+.criar-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.criar-conta span {
+    color: #fff !important;
+}
+
+.criar-conta .sign-up {
+    border: solid 1px white;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 5px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+}
+
+.criar-conta .sign-up:hover {
+    background-color: #010938;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.container .content-titulo {
+    padding: 10%;
+}
+
+.container .content-titulo p {
+    font-size: 80px;
+    color: white;
+}
+
+.container .content-titulo img {
+    margin-left: -40px;
+}
+
+strong {
+    font-weight: 800;
+}
+
+@media (max-width:767px) {
+    .form {
+        width: 100%;
+        background-color: #5659d1;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    .content {
+        padding: 10px 5px;
+    }
+
+}
+
+@media (max-width:360px) {
+    .content form {
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .criar-conta span,
+    .criar-conta .sign-up {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width:999px) {
+    .form {
+        width: 40%;
+        background-color: #5659d1;
+    }
+
+    .content {
+        padding: 10px 5px;
+    }
+
+    .content form {
+        margin-top: 120px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .content .logo h1 {
+        font-size: 25px;
+    }
+
+    .container .content-titulo p {
+        font-size: 50px;
+        color: white;
+    }
+
+    .content form .title-form {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .criar-conta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25%;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: #6e6f71;
+        font-size: 13px;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width:1550px) {
+    .form {
+        width: 40%;
+        background-color: #5659d1;
+    }
+
+    .content {
+        padding: 20px 20px;
+    }
+
+    .content form {
+        margin-top: 4%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .content .logo h1 {
+        font-size: 25px;
+    }
+
+    .container .content-titulo p {
+        font-size: 60px;
+        color: white;
+    }
+}
